@@ -3,120 +3,280 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV - Moje Portfolio</title>
+    <title>Jakub Pawłowski - PhD Candidate | Medical AI Researcher</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
         <header class="header">
             <div class="header-content">
-                <h1 class="name">Imię Nazwisko</h1>
-                <p class="title">Tytuł zawodowy / Stanowisko</p>
+                <div class="name-wrapper">
+                    <h1 class="name">Jakub Pawłowski</h1>
+                    <div class="title-badge">PhD Candidate</div>
+                </div>
+                <p class="subtitle">Medical University of Gdańsk</p>
+                <p class="location">Gdańsk, Polska</p>
                 <div class="contact-info">
-                    <a href="mailto:email@example.com" class="contact-item">email@example.com</a>
-                    <a href="tel:+48123456789" class="contact-item">+48 123 456 789</a>
-                    <a href="https://github.com/username" target="_blank" class="contact-item">GitHub</a>
-                    <a href="https://linkedin.com/in/username" target="_blank" class="contact-item">LinkedIn</a>
+                    <a href="https://linkedin.com/in/jakub-pawlowski" target="_blank" class="contact-item">
+                        <span class="contact-icon">🔗</span> LinkedIn
+                    </a>
+                    <a href="mailto:jakub@example.com" class="contact-item">
+                        <span class="contact-icon">✉</span> Email
+                    </a>
                 </div>
             </div>
+            <div class="header-decoration"></div>
         </header>
 
         <main class="main-content">
-            <section class="section">
-                <h2 class="section-title">O mnie</h2>
+            <section class="section" id="about">
+                <h2 class="section-title">
+                    <span class="section-icon">👨‍🔬</span>
+                    O mnie
+                </h2>
                 <p class="section-content">
-                    Krótki opis o sobie, swoich zainteresowaniach zawodowych i celach. 
-                    Możesz tutaj opisać swoje pasje, wartości i to, co Cię motywuje w pracy.
+                    PhD candidate at the Medical University of Gdańsk, researching machine learning models for diagnosing depression. 
+                    Experienced in microbiology with collaborations at NASA Ames and ESA. Currently working in Technical Development 
+                    at Polpharma Biologics and contributing to an AI startup, where I'm involved in two projects—an innovative 
+                    application and a device. Passionate about merging biological sciences and AI to drive innovation in healthcare.
                 </p>
             </section>
 
-            <section class="section">
-                <h2 class="section-title">Doświadczenie</h2>
-                <div class="experience-item">
-                    <div class="experience-header">
-                        <h3 class="job-title">Nazwa stanowiska</h3>
-                        <span class="job-period">2020 - obecnie</span>
+            <section class="section" id="experience">
+                <h2 class="section-title">
+                    <span class="section-icon">💼</span>
+                    Doświadczenie
+                </h2>
+                
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="experience-header">
+                                <h3 class="job-title">Nauczyciel akademicki</h3>
+                                <span class="job-period">paź 2025 – obecnie</span>
+                            </div>
+                            <p class="company-name">Gdański Uniwersytet Medyczny</p>
+                            <span class="job-type">Umowa zlecenie/freelancing · Gdańsk</span>
+                        </div>
                     </div>
-                    <p class="company-name">Nazwa firmy</p>
-                    <ul class="job-description">
-                        <li>Opis obowiązków i osiągnięć</li>
-                        <li>Kolejny punkt z doświadczeniem</li>
-                        <li>Wartościowe osiągnięcia w projekcie</li>
-                    </ul>
-                </div>
-                <div class="experience-item">
-                    <div class="experience-header">
-                        <h3 class="job-title">Poprzednie stanowisko</h3>
-                        <span class="job-period">2018 - 2020</span>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="experience-header">
+                                <h3 class="job-title">Doktorant</h3>
+                                <span class="job-period">paź 2024 – obecnie</span>
+                            </div>
+                            <p class="company-name">Gdański Uniwersytet Medyczny</p>
+                            <span class="job-type">Gdańsk</span>
+                        </div>
                     </div>
-                    <p class="company-name">Poprzednia firma</p>
-                    <ul class="job-description">
-                        <li>Opis obowiązków</li>
-                        <li>Realizowane projekty</li>
-                    </ul>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="experience-header">
+                                <h3 class="job-title">Programista Full Stack</h3>
+                                <span class="job-period">sty 2023 – obecnie</span>
+                            </div>
+                            <p class="company-name">Samozatrudnienie</p>
+                            <span class="job-type">Praca zdalna</span>
+                            <p class="job-tech">Django, Python i więcej</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="experience-header">
+                                <h3 class="job-title">Młodszy asystent</h3>
+                                <span class="job-period">gru 2024 – mar 2025</span>
+                            </div>
+                            <p class="company-name">OpenLEK</p>
+                            <span class="job-type">Pełny etat · Praca hybrydowa</span>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="experience-header">
+                                <h3 class="job-title">Młodszy asystent</h3>
+                                <span class="job-period">paź 2024 – mar 2025</span>
+                            </div>
+                            <p class="company-name">Polpharma Biologics</p>
+                            <span class="job-type">Pełny etat · Gdańsk</span>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="experience-header">
+                                <h3 class="job-title">Technik laboratoryjny</h3>
+                                <span class="job-period">cze 2022 – paź 2022</span>
+                            </div>
+                            <p class="company-name">Weterynaryjne Laboratorium Diagnostyczne wetlabia.pl</p>
+                            <span class="job-type">Staż · Iława</span>
+                        </div>
+                    </div>
                 </div>
             </section>
 
-            <section class="section">
-                <h2 class="section-title">Edukacja</h2>
+            <section class="section" id="education">
+                <h2 class="section-title">
+                    <span class="section-icon">🎓</span>
+                    Wykształcenie
+                </h2>
+                
                 <div class="education-item">
                     <div class="education-header">
-                        <h3 class="degree">Nazwa kierunku</h3>
-                        <span class="education-period">2014 - 2018</span>
+                        <h3 class="degree">Doctor's Degree</h3>
+                        <span class="education-period">paź 2024 – cze 2028</span>
                     </div>
-                    <p class="university-name">Nazwa uczelni</p>
+                    <p class="university-name">Gdański Uniwersytet Medyczny</p>
+                </div>
+
+                <div class="education-item">
+                    <div class="education-header">
+                        <h3 class="degree">Magister (Mgr), Environmental health and safety</h3>
+                        <span class="education-period">paź 2022 – cze 2024</span>
+                    </div>
+                    <p class="university-name">Gdański Uniwersytet Medyczny</p>
+                    <p class="education-extra">Student Scientific Circle of Environmental Health and Epidemiology at the Department of Environmental Toxicology</p>
                 </div>
             </section>
 
-            <section class="section">
-                <h2 class="section-title">Umiejętności</h2>
-                <div class="skills-grid">
-                    <div class="skill-category">
-                        <h4 class="skill-category-title">Technologie</h4>
-                        <ul class="skill-list">
-                            <li>JavaScript</li>
-                            <li>Python</li>
-                            <li>React</li>
-                            <li>Node.js</li>
-                        </ul>
+            <section class="section" id="projects">
+                <h2 class="section-title">
+                    <span class="section-icon">🚀</span>
+                    Projekty
+                </h2>
+                
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-icon">🏥</div>
+                        <h3 class="project-title">SalomonApp</h3>
+                        <p class="project-description">
+                            System kontroli technicznych budynków - aplikacja webowa do zarządzania kontrolami 
+                            (gazowe, elektryczne, wentylacji) z podziałem na role administratora i inspektora.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Django</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">Docker</span>
+                            <span class="tech-tag">Bootstrap</span>
+                        </div>
                     </div>
-                    <div class="skill-category">
-                        <h4 class="skill-category-title">Narzędzia</h4>
-                        <ul class="skill-list">
-                            <li>Git</li>
-                            <li>Docker</li>
-                            <li>VS Code</li>
-                            <li>Figma</li>
-                        </ul>
+
+                    <div class="project-card">
+                        <div class="project-icon">🏢</div>
+                        <h3 class="project-title">System Kontroli Technicznych Budynków</h3>
+                        <p class="project-description">
+                            Kompleksowy system do zarządzania kontrolami technicznymi z dashboardami, 
+                            statystykami i zaawansowanym systemem uprawnień.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Django 4.2.7</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">Docker</span>
+                        </div>
                     </div>
-                    <div class="skill-category">
-                        <h4 class="skill-category-title">Języki</h4>
-                        <ul class="skill-list">
-                            <li>Polski - natywny</li>
-                            <li>Angielski - zaawansowany</li>
-                        </ul>
+
+                    <div class="project-card">
+                        <div class="project-icon">🚗</div>
+                        <h3 class="project-title">Komis Samochodowy</h3>
+                        <p class="project-description">
+                            Kompletna aplikacja Django dla komisu samochodowego z Dockerem, PostgreSQL, 
+                            nginx i pełnym frontendem. Katalog samochodów, blog, porównywarka.
+                        </p>
+                        <div class="project-links">
+                            <a href="https://www.auto-prekursor-skibicki.pl/" target="_blank" class="project-link">🌐 Zobacz projekt</a>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">Django 4.2+</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">Nginx</span>
+                            <span class="tech-tag">Docker</span>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-icon">⚙️</div>
+                        <h3 class="project-title">Automatyzacja i Skrypty</h3>
+                        <p class="project-description">
+                            Wiele skryptów na zamówienie dla terapeutów i laboratoriów do automatyzacji 
+                            i usprawnienia pracy. Analizy statystyczne na zamówienie.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Django</span>
+                            <span class="tech-tag">Analiza danych</span>
+                        </div>
                     </div>
                 </div>
             </section>
 
-            <section class="section">
-                <h2 class="section-title">Projekty</h2>
-                <div class="project-item">
-                    <h3 class="project-title">Nazwa projektu</h3>
-                    <p class="project-description">
-                        Opis projektu, technologii użytych do jego realizacji i osiągniętych rezultatów.
+            <section class="section" id="publications">
+                <h2 class="section-title">
+                    <span class="section-icon">📄</span>
+                    Publikacje
+                </h2>
+                
+                <div class="publication-item">
+                    <h3 class="publication-title">PFAS w środowisku Antarktydy</h3>
+                    <p class="publication-journal">Environmental Research</p>
+                    <p class="publication-description">
+                        Współautor badania dotyczącego zmian stężeń substancji z grupy PFAS w środowisku 
+                        Antarktydy na przestrzeni dwóch dekad.
                     </p>
-                    <div class="project-links">
-                        <a href="https://github.com/username/project" target="_blank" class="project-link">GitHub</a>
-                        <a href="https://project-demo.com" target="_blank" class="project-link">Demo</a>
-                    </div>
+                    <a href="https://lnkd.in/dfUUjPy4" target="_blank" class="publication-link">🔗 Zobacz publikację</a>
                 </div>
             </section>
         </main>
 
         <footer class="footer">
-            <p>&copy; 2024 Imię Nazwisko. Wszystkie prawa zastrzeżone.</p>
+            <p>&copy; 2025 Jakub Pawłowski. Wszystkie prawa zastrzeżone.</p>
         </footer>
     </div>
+
+    <script>
+        // Smooth scroll animation
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+
+        // Fade in on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.section, .project-card, .timeline-item, .education-item, .publication-item').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(20px)';
+            el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(el);
+        });
+    </script>
 </body>
 </html>
